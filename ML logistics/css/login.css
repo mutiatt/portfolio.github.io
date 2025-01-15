@@ -1,0 +1,190 @@
+*{
+    margin:0px;
+}
+#heading{
+    display:flex;
+    /* padding:12px 14px; */
+    /* background-color: black; */
+    position: sticky;
+    top:0;
+}
+header{
+    color:white;
+}
+.dropbtn{
+    cursor:pointer;
+    border:none;
+    font-size:17px;
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dropdown{
+    position:relative;
+    display:inline-block;
+    padding-top:30px;
+    /* margin-left:-100px; */
+
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    z-index:1;
+    min-width:160px;
+    background-color: white;
+    border-radius:4px;
+}
+.dropdown-content a{
+    text-decoration: none;
+    display:block;
+    color:black;
+    padding:12px 15px;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a:hover, .dropbtn:hover{
+    color:#cb6ce6;
+}
+
+/* header h1{
+    margin-left:20px;
+    padding-top:5px;
+}
+nav{
+    margin-left:500px;
+} */
+nav ul li{
+    float:left;
+}
+nav ul li a{
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    padding:12px 15px;
+
+}
+nav ul{
+    list-style-type: none;
+    overflow:hidden;
+}
+nav li a{
+    color:black;
+    font-size:17px;
+}
+nav li a:hover {
+    color:#cb6ce6;
+
+}
+nav button {
+    background-color:#8c52ff;
+    border-radius: 5px;
+    border:none;
+    margin-top: 5px;
+    padding:8px 12px 10px 12px;
+    width:150px;
+    text-align:center;
+    margin-left:370px;
+
+}
+nav button a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+
+#newsletter{
+    display:flex;
+    background-color: black;
+    color:white;
+    padding:0px 350px;
+}
+
+a{
+    text-decoration: none;
+}
+form{
+    background-color: #f5f5f5;
+    padding:130px;
+}
+form h2{
+    font-size:30px;
+}
+#email{
+    padding:15px 200px 15px 15px;
+    font-size:18px;
+    border-radius:5px;
+    border: 1px solid rgb(165, 164, 164);
+}
+#password{
+    padding:15px 200px 15px 15px;
+    font-size:18px;
+    border-radius:5px;
+    border: 1px solid rgb(165, 164, 164);
+}
+form p a {
+    text-decoration: underline;
+    color:black;
+    font-size:18px;
+}
+#submit{
+    color:white;
+    background-color: black;
+    padding: 15px 175px;
+    border-radius: 5px;
+    font-size:18px;
+    border:none;
+}
+/* forgot password */
+#submit1{
+    color:white;
+    background-color: black;
+    padding: 15px 135px;
+    border-radius: 5px;
+    font-size:18px;
+    border:none;
+}
+
+
+
+
+
+
+
+ /* Footer */
+footer{
+    background-color: black;
+    color:white;
+    display:flex;
+    padding:100px;
+
+}
+footer h3{
+    font-size:19px;
+}
+.company{
+    padding-left:200px;
+    padding-right: 100px;
+}
+.company p{
+    padding:8px 0px;
+}
+.company a{
+    color:#f5f5f5;
+    font-size:15px;
+}
+.other-services{
+    padding-left: 100px;
+    padding-right: 200px;
+}
+.other-services p{
+    padding:8px 0px;
+}
+.other-services a{
+    color:#f5f5f5;
+    font-size: 15px;
+}
+.connect div{
+    display:flex;
+}

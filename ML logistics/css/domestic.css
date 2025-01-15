@@ -1,0 +1,113 @@
+main h3{
+    font-size:30px;
+    padding-top:50px;
+}
+#domestic{
+    display:flex;
+    padding:90px;
+    /* position:relative; */
+}
+#domestic p{
+    font-size:19px;
+    padding:30px 50px 50px 100px;
+}
+
+.domes-ship{
+    text-decoration: none;
+    background-color: rgb(208, 21, 21);
+    padding:10px 15px;
+    color:white;
+    border-radius:3px;
+    font-size:17px;
+}
+.domes-get{
+    text-decoration: none;
+    background-color: #ececec;
+    padding:10px 15px;
+    color:red;
+    border-radius: 3px;
+    border:1px solid #ececec;
+    font-size: 17px;
+    margin-left:35px;
+}
+#dedicate{
+    text-align:center;
+}
+#dedicate h5{
+    font-size: 18px;
+}
+#offerings{
+    margin:20px 100px;
+    font-size:15px;
+
+    /* padding:10px 90px; */
+    /* display: flex; */
+}
+.piority-shipping{
+    width:25%;
+    float:left;
+     padding:15px 15px 33px 15px;   
+     background-color:rgb(229, 227, 227);
+     border-radius:5px;
+     /* margin:30px 0px 30px 50px; */
+     box-shadow:6px 6px 6px rgb(197, 183, 183);
+
+}
+/* .piority-shipping p{
+    font-size:15px;
+} */
+.fast-delivery{
+    width:25%;
+    float:left;
+    padding:15px 15px 33px 15px;   
+    background-color:rgb(229, 227, 227);;
+    border-radius:5px;
+    /* margin:30px 0px 30px 90px; */
+    box-shadow:6px 6px 6px rgb(197, 183, 183);
+}
+/* .fast-delivery p{
+    font-size:15px ;
+} */
+.partners{
+    float:left;
+    background-color:rgb(229, 227, 227);;
+     border-radius:5px;
+     margin:30px 50px 30px 50px;
+     box-shadow:1px 1px rgb(197, 183, 183);
+
+}
+.partners p{
+    font-size:15px;
+}
+.last-mile{
+    background-color:rgb(229, 227, 227);;
+     border-radius:5px;
+     margin:30px 10px 30px 50px;
+     box-shadow:1px 1px rgb(197, 183, 183);
+
+}
+.last-mile p{
+    font-size: 15px;
+}
+.relocation{
+    background-color:rgb(229, 227, 227);;
+     border-radius:5px;
+     margin:30px 50px 30px 50px;
+     box-shadow:1px 1px rgb(197, 183, 183);
+
+
+}
+.relocation p{
+    font-size: 15px;
+}
+.specialized-freight{
+    background-color:rgb(229, 227, 227);;
+     border-radius:5px;
+     margin:30px 50px 30px 50px;
+     box-shadow:1px 1px rgb(197, 183, 183);
+
+
+}
+.specialized-freight p{
+    font-size: 15px;
+}

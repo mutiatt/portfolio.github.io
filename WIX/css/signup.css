@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+#header h1{
+    font-size: 55px;
+    margin:0;
+}
+#header p{
+    font-size:20px;
+}
+#header a{
+    text-decoration: none;
+    color:#116dff;
+}
+
+.mail{
+    margin:50px 300px;
+    font-size: 30px;
+    
+}
+#email{
+    border-style:none;
+    border-bottom:1px solid lightgray;
+    padding:15px 180px 20px 10px;
+    outline:none;
+    
+}
+#email:hover{
+    border-style:none;
+    border-bottom:1px solid rgb(187, 183, 183);
+}
+#password{
+    border:1px solid lightgray;
+    padding:15px 180px 10px 10px;
+    outline:none;
+}
+#password:hover{
+    border-bottom:1px solid rgb(187, 183, 183);
+
+}
+#submit{
+    padding:10px 30px;
+    border-radius: 25px;
+    background-color:white;
+    border: 1px solid #316bc9;
+    color: #116dff;
+}
+#social{
+    margin:180px 0px 200px -100px;
+}
+.google button{
+    background-color: #116dff;
+    font-size: 16px ;
+    color:white;
+    border:1px solid #116dff;
+    position:relative;
+    padding:10px 40px 10px 70px;
+}
+.google-img{
+    width:37px;
+    position: absolute;
+    top:1.6px;
+    left:1.6px;
+    border:1px solid white;
+}
+.facebook button{
+    background-color: #3b5998;
+    font-size: 16px ;
+    color:white;
+    border:1px solid #116dff;
+    position:relative;
+    padding:10px 40px 10px 50px;
+}
+.fb-img{
+    width:28px;
+    position: absolute;
+    top:1.5px;
+    left:1.5px;
+    border:1px solid white;
+}

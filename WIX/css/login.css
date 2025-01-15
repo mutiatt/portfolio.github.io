@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+#header h1{
+    font-size: 55px;
+    margin:0;
+}
+#header p{
+    font-size:20px;
+}
+#header a{
+    text-decoration: none;
+    color:#116dff;
+}
+
+.mail{
+    margin:50px 300px;
+    /* font-size: 30px; */
+}
+.mail a{
+    text-decoration:underline;
+    color:black;
+    font-size:17px;
+    
+}
+#email{
+    border-style:none;
+    border-bottom:1px solid lightgray;
+    padding:15px 180px 20px 10px;
+    outline:none;
+}
+#email:hover{
+    border-style:none;
+    border-bottom:1px solid rgb(187, 183, 183);
+}
+#submit{
+    color:#116dff;
+    background-color:white;
+    border:none;
+    border: 1px solid #116dff;
+    border-radius:20px;
+    padding:10px 50px 10px 40px;
+}
+
+#social{
+    margin:90px 0px 200px -150px;
+}
+.google button{
+    background-color: #116dff;
+    font-size: 16px ;
+    color:white;
+    border:1px solid #116dff;
+    position:relative;
+    padding:10px 80px;
+    text-align: center;
+}
+.google-img{
+    width:37px;
+    position: absolute;
+    top:1.6px;
+    left:1.6px;
+    border:1px solid white;
+}
+.facebook button{
+    background-color: #3b5998;
+    font-size: 16px ;
+    color:white;
+    border:1px solid #3b5998;
+    position:relative;
+    padding:10px 70px;
+    text-align: center;
+}
+.fb-img{
+    width:28px;
+    position: absolute;
+    top:1.5px;
+    left:1.5px;
+    border:1px solid white;
+    border-style:unset;
+    /* padding:px; */
+}
+
+.apple button{
+    background-color: white;
+    color:black;
+    position:relative;
+    padding:10px 85px;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.apple-img{
+    width:35px;
+    position: absolute;
+    top:1.4px;
+    left:1.4px;
+    /* border:1px solid white; */
+    border-style:initial;
+    border-right: 2px solid black;
+    padding:9px;
+}
