@@ -272,10 +272,11 @@ img{
 
 /* ------ contact--- */
 .contact-left{
-    flex-basis:35%;
+    flex-basis:40%;
 }
 .contact-right{
-    flex-basis:60%;
+    flex-basis:50%;
+    margin-left: 200px;
 }
 .contact-left p{
     margin-top:30px;
@@ -324,6 +325,7 @@ form .btn2{
     padding:14px 60px;
     font-size:18px;
     margin-top:20px;
+    margin-left:15px;
     cursor:pointer;
 }
 .copyright{
