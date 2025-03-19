@@ -1,5 +1,6 @@
 *{
     margin:0px;
+    padding:0px;
 }
 
 #heading{
@@ -11,7 +12,7 @@ header{
     color:white;
 }
 
-.dropbtn{
+/* .dropbtn{
     cursor:pointer;
     border:none;
     font-size:17px;
@@ -24,9 +25,9 @@ header{
     padding-top:30px;
     /* margin-left:-100px; */
 
-}
 
-.dropdown-content{
+
+/* .dropdown-content{
     display:none;
     position:absolute;
     z-index:1;
@@ -46,7 +47,7 @@ header{
 }
 .dropdown-content a:hover, .dropbtn:hover{
     color:#cb6ce6;
-}
+} */ 
 /* header h1{
     margin-left:20px;
     padding-top:5px;
@@ -56,7 +57,7 @@ header{
 } */
 
 
-nav ul li{
+/* nav ul li{
     float:left;
 }
 nav ul li a{
@@ -78,8 +79,8 @@ nav li a{
 nav li a:hover {
     color:#cb6ce6;
 
-}
-nav button {
+} */
+/* nav button {
     background-color:#8c52ff;
     border-radius: 5px;
     border:none;
@@ -93,9 +94,9 @@ nav button a{
     text-decoration: none;
     color:white;
     font-size: 15px;
-}
+} */
 
-#newsletter{
+/* #newsletter{
     display:flex;
     background-color:black;
     color:white;
@@ -105,7 +106,7 @@ nav button a{
 
 
 /* main body */
-.banner{
+/* .banner{
     position:relative;
 }
 .bannertrack{
@@ -132,7 +133,7 @@ nav button a{
 .bannertrack p{
     color:white;
     font-size:17px;
-}
+} */ */
 
 /* SERVICES */
 #services{
@@ -150,7 +151,7 @@ nav button a{
 }
 .shipnow{
     background-color: white;
-    border:1px solid lightgray;
+    border:1px solid rgb(182, 180, 180);
     font-size:15px;
     padding:40px 40px 50px 20px;
     position:relative;
@@ -230,12 +231,14 @@ nav button a{
 .shopper:hover .shopmoving{
     display: block;
 }
+
+
 /* APP MARKETING */
 #app-marketing{
     background-color: black;
 }
 #app-marketing #app-screen{
-    margin-left:400px;
+    margin: 50px 200px;
 }
 #app-marketing h2{
     color:white;
