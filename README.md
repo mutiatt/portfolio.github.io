@@ -1,3 +1,3 @@
 # portfolio.github.io
 
-Another personal website project
+A personal website project
