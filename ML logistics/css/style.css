@@ -238,7 +238,7 @@ nav button a{
     background-color: black;
 }
 #app-marketing #app-screen{
-    margin: 50px 200px;
+    /* margin: 50px 200px; */
 }
 #app-marketing h2{
     color:white;
@@ -255,8 +255,8 @@ nav button a{
 
 }
 #icon img{
-    width:32px;
-    padding-top:5px;
+    width:30px;
+    /* padding-top:5px; */
 }
 .appstore p, .appstore h3{
     color:#f5f5f5;

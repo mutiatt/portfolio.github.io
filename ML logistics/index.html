@@ -21,7 +21,7 @@
                     
                     <!-- toggle button for mobile nav -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle Navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon "></span>
                     </button>
                         <div class="dropdown ms-5">
                             <button class="btn btn-muted dropdown-toggle d-none d-md-inline" type="button" id="service-dropdown" data-bs-toggle="dropdown">
@@ -88,15 +88,15 @@
         <main>
                 <div class="banner position-relative">
                     <img src="./images/happy-client-with-their-box-delivered.jpg" alt="landingpage" class="img-fluid">                    <div class="col-12"> 
-                        <div class="position-absolute  top-50 start-50  translate-middle border bg-light p-3"
+                        <div class="position-absolute  top-50 start-50  translate-middle border bg-light p-2"
                         style="border-radius:3px;" >
-                            <input type="text" id="codeid" name="codeid" placeholder="Input tracking ID/Alphacode" size="30"></input>
-                            <input type="submit" id="check" class="btn btn-primary" value="Search"></input>
+                            <input type="text" id="codeid" name="codeid" placeholder="Input tracking ID/Alphacode" class="p-2" size="30"></input>
+                            <input type="submit" id="check" class="btn btn-primary mt-4" value="Search"></input>
                         </div>
-                        <div class="position-absolute  top-50 start-50  translate-middle"
+                        <!-- <div class="position-absolute  top-50 start-50  translate-middle"
                         style="padding-top: 120px;">
                              <p class="text-light">Track shipment / Find and ship a product using Alphacode</p>
-                       </div>
+                       </div> -->
                     </div>
                 </center>
             </div>
@@ -161,41 +161,31 @@
         
         <!--------------App Marketing------->
          <article id="app-marketing">
-            <div class="row" style="display:flex; padding:00px 0px;">
-                <div class="col-5" style="margin-top:100px;">
+            <div class="row justify-content-center align-items-center">
+                <div class="mt-5">
                     <h2> 
-                        MacApp, the app for local<br> and international <br>shipping
+                        MacApp, the app for local and international shipping
                     </h2>
                     <br>
-                    <div style="display:flex;" class="btn">
-                        <a href="www.html">
-                            <div class="appstore">
+                  </div>
+                <div class="col-6 col-md-3">
+                        <a href="#" class="btn btn-danger mb-3">
                                 <div id="icon">
-                                    <img src="./images/apple.png">
+                                    <img src="./images/apple.png" class="img-fluid">
                                 </div>
-                                &nbsp;&nbsp; &nbsp;
-                                <div>
-                                    <p>Download on the</p>
-                                    <h3>App Store</h3>
-                                </div>
-                            </div>
+                                <p class="mt-2 lead">Download on the App store</p>
                         </a>
-                        <a href="www.html">
-                            <div class="playstore">
+                </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="btn btn-light">
                                 <div id="iconn">
-                                    <img src="./images/R (8).png">
+                                    <img src="./images/R (8).png" class="img-fluid">
                                 </div>
-                                &nbsp;&nbsp; &nbsp;
-                                <div>
-                                    <p>Get it on</p>
-                                    <h3>Google Play</h3>
-                                </div>
-                            </div>
+                                <p class="mt-2 lead">Get it on Google Play</p>
                        </a>
 
                     </div>
-                </div>
-                <div class="col-5 d-none d-sm-inline ">
+                <div class="col-4 d-none d-md-block">
                     <img src="./images/app-screen (1).png" class="img-fluid" id="app-screen">
                 </div>
                
